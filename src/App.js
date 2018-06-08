@@ -14,12 +14,12 @@ class App extends Component {
     <Layout fixedHeader>
         <Header className='header-color' 
             title={<span><span style={{ color: '/ddd' }}></span>
-            <strong><i class='fa fa-terminal' id='facolor' aria-hidden='true' />&nbsp;&nbsp;&nbsp;Laurie Aaronson</strong></span>}>
+            <a href='/'><strong><i class='fa fa-code' id='facolor' aria-hidden='true' />&nbsp;&nbsp;&nbsp;Laurie Aaronson</strong></a></span>}>
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
                 <a href="/contact">Contact Me</a>
-                <a href="/resume">Resume</a>
+                <a href="https://docs.google.com/document/d/1IQtk3AQK234qOMKycusG-exRW96TMvQNxPA0dI773Z0/">Resume</a>
             </Navigation>
         </Header>
         

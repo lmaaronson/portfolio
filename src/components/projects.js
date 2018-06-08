@@ -17,12 +17,22 @@ class Projects extends Component {
           
           {/* Project 1 */}
           <Card shadow={2} style={{width: '320px', height: '320px', margin: 'auto'}}>
-          <CardTitle style={{color: 'black', height: '175px', background: 'url(http://i1.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg) center / cover'}} >Click-It</CardTitle> <CardText>
-              A memory game. Everytime an image is clicked, they move randomly to another position and a point is scored.  If an image is clicked twice the game is over and the user loses.  
-            </CardText>
-            <CardActions border>
-            <a href='https://github.com/lmaaronson/click-it' target='_blank'><Button colored>GitHub</Button></a>
-            <a href='https://lmaaronson.github.io/' target='_blank'>  <Button colored>Live Demo</Button></a>
+          <CardTitle
+            className="card-title"
+            style={{
+              color: 'black',
+              height: '175px',
+              background: 'url(http://i1.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg) center / cover'
+            }}
+          >
+            Click-It
+          </CardTitle>
+          <CardText>
+            A memory game. Everytime an image is clicked, they move randomly to another position and a point is scored.  If an image is clicked twice the game is over and the user loses.  
+          </CardText>
+            <CardActions border className='align-center'>
+            <a href='https://github.com/lmaaronson/click-it' rel='noopener noreferrer' target='_blank'><Button colored>GitHub</Button></a>
+            <a href='https://lmaaronson.github.io/' rel='noopener noreferrer' target='_blank'>  <Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
